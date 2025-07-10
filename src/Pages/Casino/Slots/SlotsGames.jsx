@@ -1,27 +1,19 @@
 import React from 'react';
 import { ChevronLeft, Play } from 'lucide-react';
 import { Link } from "react-router-dom";
-const Games = () => {
-  const games = [
-    { id: 1, name: 'JetX', image: 'https://papacasino777.com/img/thumbnails/2000004.png' },
-    { id: 2, name: 'Aviator', image: '/api/placeholder/200/200' },
-    { id: 3, name: 'Balloon', image: '/api/placeholder/200/200' },
-    { id: 4, name: 'FootballX', image: '/api/placeholder/200/200' },
-    { id: 5, name: 'PlinkoX', image: '/api/placeholder/200/200' },
-    { id: 6, name: 'Mine Island', image: '/api/placeholder/200/200' },
-    { id: 7, name: 'HolyX', image: '/api/placeholder/200/200' },
-    { id: 8, name: 'Smash', image: '/api/placeholder/200/200' },
-    { id: 9, name: 'Hunter', image: '/api/placeholder/200/200' },
-    { id: 10, name: 'Helicopter X', image: '/api/placeholder/200/200' },
-    { id: 11, name: 'AviaStar', image: '/api/placeholder/200/200' },
-    { id: 12, name: 'Tower X', image: '/api/placeholder/200/200' },
-    { id: 13, name: 'Crash Duel X', image: '/api/placeholder/200/200' },
-    { id: 14, name: 'Bonuses Bonanza', image: '/api/placeholder/200/200' },
-    { id: 15, name: 'Booster Run', image: '/api/placeholder/200/200' },
-    { id: 16, name: 'Kite Festival', image: '/api/placeholder/200/200' },
-    { id: 17, name: 'Gunman Crash', image: '/api/placeholder/200/200' },
-    { id: 18, name: 'Mr. Gamble', image: '/api/placeholder/200/200' },
-  ];
+const SlotsGames = () => {
+ const games = [
+  { id: 1, name: 'JetX', image: 'https://papacasino777.com/img/thumbnails/2000004.png' },
+  { id: 2, name: 'Aviator', image: '/api/placeholder/200/200' },
+  { id: 3, name: 'Balloon', image: '/api/placeholder/200/200' },
+  { id: 4, name: 'FootballX', image: '/api/placeholder/200/200' },
+  { id: 5, name: 'PlinkoX', image: '/api/placeholder/200/200' },
+  { id: 6, name: 'Mine Island', image: '/api/placeholder/200/200' },
+  { id: 7, name: 'HolyX', image: '/api/placeholder/200/200' },
+  { id: 8, name: 'Smash', image: '/api/placeholder/200/200' },
+
+
+];
 
   return (
     <div className="bg-white ">
@@ -29,9 +21,9 @@ const Games = () => {
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center">
           <div className="w-8 h-8  rounded-full flex items-center justify-center mr-3">
-            <span className="text-xl">🚀</span>
+            <span className="text-2xl">🔴</span>
           </div>
-          <h1 className="text-black text-xl font-bold">Crash Games</h1>
+          <h1 className="text-black text-xl font-bold">Slots Games</h1>
         </div>
        <Link
   to="/"
@@ -71,4 +63,4 @@ const Games = () => {
   );
 };
 
-export default Games;
+export default SlotsGames;
