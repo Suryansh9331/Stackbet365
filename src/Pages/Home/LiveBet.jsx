@@ -202,6 +202,10 @@
 // };
 
 // export default LiveBettingTable;
+
+
+
+
 import React, { useState, useEffect } from 'react';
 
 const LiveBettingTable = () => {

@@ -11,6 +11,9 @@ import Mini from "./Pages/Casino/Mini/Mini";
 import Spribe from "./Pages/Casino/Spribe/Spribe";
 import Mascot from "./Pages/Casino/Mascot/Mascot";
 import ScrollToTop from "./Components/Scrolltotop";
+import LiveBetting from "./Pages/Sports/LiveBetting/LiveBatting";
+import Basketball from "./Pages/Sports/Basketball/BasketballMatches";
+import Tennis from "./Pages/Sports/Football.jsx/Tennis";
 
 function App() {
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
@@ -38,6 +41,10 @@ function App() {
           <Route path="/casino/miniGames" element={<Mini/>} />
           <Route path="/casino/spribeGames" element={<Spribe />} />
           <Route path="/casino/mascotGames" element={<Mascot />} />
+
+          <Route path="/sports/liveBetting" element={<LiveBetting/>} />
+          <Route path="/sports/basketball" element={<Basketball/>} />
+          <Route path="/sports/tennis" element={<Tennis/>} />
           {/* Add other routes here */}
         </Routes>
       </div>
