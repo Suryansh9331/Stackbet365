@@ -40,7 +40,7 @@ function App() {
       <div
         className={`transition-all duration-300 ${
           isSidebarCollapsed ? "lg:ml-16" : "lg:ml-64"
-        } mt-16`}
+        } mt-16 `}
       >
         <Routes>
           <Route path="/" element={<HomePage />} />

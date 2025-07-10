@@ -47,7 +47,7 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
 
   const Logo = ({ collapsed = false }) => (
     <div className="flex items-center space-x-3">
-      <div className="w-10 h-10 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl flex items-center justify-center shadow-lg">
+      <div className="w-10 h-10 bg-[#9810FA] rounded-xl flex items-center justify-center shadow-lg">
         <Dice1 className="w-6 h-6 text-white" />
       </div>
       {!collapsed && (
@@ -56,10 +56,10 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
             <span className="text-xl font-bold text-gray-800 tracking-tight">
               Stack
             </span>
-            <span className="text-xl font-black text-gray-900 tracking-tight">
+            <span className="text-xl font-bold text-gray-900 tracking-tight">
               Bet
             </span>
-            <span className="text-lg font-light text-gray-600 ml-0.5">
+            <span className="text-lg font-normal text-[#9810FA] ml-0.5">
               365
             </span>
           </div>
@@ -110,7 +110,7 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
           <button className="px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:border-gray-400 transition-colors duration-200 font-medium">
             Login
           </button>
-          <button className="px-4 py-2 text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 transition-colors duration-200 font-medium">
+          <button className="px-4 py-2 text-white bg-[#9810FA] rounded-lg hover:bg-indigo-700 transition-colors duration-200 font-medium">
             Sign Up
           </button>
         </div>
@@ -130,7 +130,7 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
             <button className="px-3 py-2 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:border-gray-400 transition-colors duration-200 font-medium text-sm">
               Login
             </button>
-            <button className="px-3 py-2 text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 transition-colors duration-200 font-medium text-sm">
+            <button className="px-3 py-2 text-white bg-[#9810FA] rounded-lg hover:bg-indigo-700 transition-colors duration-200 font-medium text-sm">
               Sign Up
             </button>
           </div>
@@ -150,7 +150,7 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
           <button className="flex-1 px-3 py-2 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:border-gray-400 transition-colors duration-200 font-medium text-sm text-center">
             Login
           </button>
-          <button className="flex-1 px-3 py-2 text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 transition-colors duration-200 font-medium text-sm text-center">
+          <button className="flex-1 px-3 py-2 text-white bg-[#9810FA] rounded-lg hover:bg-indigo-700 transition-colors duration-200 font-medium text-sm text-center">
             Sign Up
           </button>
         </div>
@@ -278,7 +278,7 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
   );
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className=" bg-gray-50">
       {/* Mobile Topbar */}
       <MobileTopbar />
 
@@ -291,32 +291,7 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
       {/* Mobile Sidebar */}
       <MobileSidebar />
 
-      {/* Main Content */}
-      <div className={`transition-all duration-300 ${
-        // Desktop margins
-        isSidebarCollapsed ? 'lg:ml-16' : 'lg:ml-64'
-      } lg:mt-16 mt-16 sm:mt-16`}>
-        <div className="p-6">
-          <div className="bg-white rounded-lg shadow-sm p-8">
-            <h1 className="text-2xl font-bold text-gray-900 mb-4">
-              Main Content Area
-            </h1>
-            <p className="text-gray-600 mb-4">
-              This is the main content area that adjusts based on the sidebar state.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {[1, 2, 3, 4, 5, 6].map((item) => (
-                <div key={item} className="bg-gray-50 rounded-lg p-4">
-                  <h3 className="font-semibold text-gray-900 mb-2">Card {item}</h3>
-                  <p className="text-gray-600 text-sm">
-                    Sample content for demonstration purposes.
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
+     
     </div>
   );
 };
