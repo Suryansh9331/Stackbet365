@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 const SpribeGames = () => {
  const games = [
   { id: 1, name: 'JetX', image: 'https://papacasino777.com/img/thumbnails/2000004.png' },
-  { id: 2, name: 'Aviator', image: '/api/placeholder/200/200' },
-  { id: 3, name: 'Balloon', image: '/api/placeholder/200/200' },
-  { id: 4, name: 'FootballX', image: '/api/placeholder/200/200' },
-  { id: 5, name: 'PlinkoX', image: '/api/placeholder/200/200' },
-  { id: 6, name: 'Mine Island', image: '/api/placeholder/200/200' },
-  { id: 7, name: 'HolyX', image: '/api/placeholder/200/200' },
-  { id: 8, name: 'Smash', image: '/api/placeholder/200/200' },
+  { id: 2, name: 'Aviator', image: 'https://papacasino777.com/img/thumbnails/3000006.png' },
+  { id: 3, name: 'Balloon', image: 'https://papacasino777.com/img/thumbnails/3000002.png' },
+  { id: 4, name: 'FootballX', image: 'https://papacasino777.com/img/thumbnails/3000003.png' },
+  { id: 5, name: 'PlinkoX', image: 'https://papacasino777.com/img/thumbnails/3000008.png' },
+  { id: 6, name: 'Mine Island', image: 'https://papacasino777.com/img/thumbnails/3000009.png' },
+  { id: 7, name: 'HolyX', image: 'https://papacasino777.com/img/thumbnails/3000007.png' },
+  { id: 8, name: 'Smash', image: 'https://papacasino777.com/img/thumbnails/the_candy_keno.png' },
 
 
 ];

@@ -2,26 +2,36 @@ import React from 'react';
 import { ChevronLeft, Play } from 'lucide-react';
 import { Link } from "react-router-dom";
 const Games = () => {
-  const games = [
-    { id: 1, name: 'JetX', image: 'https://papacasino777.com/img/thumbnails/2000004.png' },
-    { id: 2, name: 'Aviator', image: '/api/placeholder/200/200' },
-    { id: 3, name: 'Balloon', image: '/api/placeholder/200/200' },
-    { id: 4, name: 'FootballX', image: '/api/placeholder/200/200' },
-    { id: 5, name: 'PlinkoX', image: '/api/placeholder/200/200' },
-    { id: 6, name: 'Mine Island', image: '/api/placeholder/200/200' },
-    { id: 7, name: 'HolyX', image: '/api/placeholder/200/200' },
-    { id: 8, name: 'Smash', image: '/api/placeholder/200/200' },
-    { id: 9, name: 'Hunter', image: '/api/placeholder/200/200' },
-    { id: 10, name: 'Helicopter X', image: '/api/placeholder/200/200' },
-    { id: 11, name: 'AviaStar', image: '/api/placeholder/200/200' },
-    { id: 12, name: 'Tower X', image: '/api/placeholder/200/200' },
-    { id: 13, name: 'Crash Duel X', image: '/api/placeholder/200/200' },
-    { id: 14, name: 'Bonuses Bonanza', image: '/api/placeholder/200/200' },
-    { id: 15, name: 'Booster Run', image: '/api/placeholder/200/200' },
-    { id: 16, name: 'Kite Festival', image: '/api/placeholder/200/200' },
-    { id: 17, name: 'Gunman Crash', image: '/api/placeholder/200/200' },
-    { id: 18, name: 'Mr. Gamble', image: '/api/placeholder/200/200' },
-  ];
+ const games = [
+  { id: 1, name: 'JetX', image: 'https://papacasino777.com/img/thumbnails/JetX.png' },
+  { id: 2, name: 'Aviator', image: 'https://papacasino777.com/img/thumbnails/3000001.png' },
+  { id: 3, name: 'Balloon', image: 'https://papacasino777.com/img/thumbnails/Balloon.png' },
+  { id: 4, name: 'FootballX', image: 'https://papacasino777.com/img/thumbnails/FootballX.png' },
+  { id: 5, name: 'PlinkoX', image: 'https://papacasino777.com/img/thumbnails/PlinkoX.png' },
+  { id: 6, name: 'Mine Island', image: 'https://papacasino777.com/img/thumbnails/MineIsland.png' },
+  { id: 7, name: 'HolyX', image: 'https://papacasino777.com/img/thumbnails/RollX.png' },
+  { id: 8, name: 'Smash', image: 'https://papacasino777.com/img/thumbnails/SmashX.png' },
+  { id: 9, name: 'Hunter', image: 'https://papacasino777.com/img/thumbnails/HunterX.png' },
+  { id: 10, name: 'Helicopter X', image: 'https://papacasino777.com/img/thumbnails/HelicopterX.png' },
+  { id: 11, name: 'AviaStar', image: 'https://papacasino777.com/img/thumbnails/JetX3.png' },
+  { id: 12, name: 'Tower X', image: 'https://papacasino777.com/img/thumbnails/TowerX.png' },
+  { id: 13, name: 'Crash Duel X', image: 'https://papacasino777.com/img/thumbnails/TugOfWar.png' },
+  { id: 14, name: 'Bonuses Bonanza', image: 'https://papacasino777.com/img/thumbnails/PlinkoJoker.png' },
+  { id: 15, name: 'Booster Run', image: 'https://papacasino777.com/img/thumbnails/rooster_run.png' },
+  { id: 16, name: 'Kite Festival', image: 'https://papacasino777.com/img/thumbnails/kite_festival_crash_game.png' },
+  { id: 17, name: 'Gunman Crash', image: 'https://papacasino777.com/img/thumbnails/gunman_crash.png' },
+  { id: 18, name: 'Mr. Gamble', image: 'https://papacasino777.com/img/thumbnails/5000022.png' },
+  { id: 19, name: 'Rocket Blaze', image: 'https://papacasino777.com/img/thumbnails/4000005.png' },
+  { id: 20, name: 'Crypto Plinko', image: 'https://papacasino777.com/img/thumbnails/4000003.png' },
+  { id: 21, name: 'Boom Ball', image: 'https://papacasino777.com/img/thumbnails/4000004.png' },
+  { id: 22, name: 'Lava Launch', image: 'https://papacasino777.com/img/thumbnails/5000031.png' },
+  { id: 23, name: 'Speedy Flip', image: 'https://papacasino777.com/img/thumbnails/5000005.png' },
+  { id: 24, name: 'Sniper Aim', image: 'https://papacasino777.com/img/thumbnails/5000017.png' },
+  { id: 25, name: 'Dice Duel', image: 'https://papacasino777.com/img/thumbnails/5000022.png' },
+  { id: 26, name: 'Sky Crash', image: 'https://papacasino777.com/img/thumbnails/4000005.png' },
+  { id: 27, name: 'Mega Miner', image: 'https://papacasino777.com/img/thumbnails/4000003.png' },
+  { id: 28, name: 'Ninja RunX', image: 'https://papacasino777.com/img/thumbnails/4000004.png' }
+];
 
   return (
     <div className="bg-white ">

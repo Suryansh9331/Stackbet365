@@ -14,6 +14,10 @@ import ScrollToTop from "./Components/Scrolltotop";
 import LiveBetting from "./Pages/Sports/LiveBetting/LiveBatting";
 import Basketball from "./Pages/Sports/Basketball/BasketballMatches";
 import Tennis from "./Pages/Sports/Football.jsx/Tennis";
+import TermsAndConditions from "./Pages/Terms/Terms";
+import PrivacyPolicy from "./Pages/PrivacyPolicy/Privacy";
+import FAQ from "./Pages/FAQ/FAq";
+import AboutUs from "./Pages/About/About";
 
 function App() {
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
@@ -46,6 +50,11 @@ function App() {
           <Route path="/sports/basketball" element={<Basketball/>} />
           <Route path="/sports/tennis" element={<Tennis/>} />
           {/* Add other routes here */}
+          <Route path="/terms-and-conditions" element={<TermsAndConditions/>} />
+          <Route path="/Privacy-policy" element={<PrivacyPolicy/>} />
+          <Route path="/frequently-asked-Question" element={<FAQ/>} />
+          <Route path="/About-us" element={<AboutUs/>} />
+
         </Routes>
       </div>
     </Router>

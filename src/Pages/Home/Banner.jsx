@@ -73,7 +73,7 @@
 //           {/* Platform Badge */}
 //           <div className="inline-flex items-center gap-2 bg-white/25 backdrop-blur-sm rounded-full px-4 py-1.5 mb-4 border border-white/30">
 //             <Sparkles className="w-3 h-3 text-yellow-300" />
-//             <span className="text-white font-semibold text-sm">Stackbet365</span>
+//             <span className="text-white font-semibold text-sm">Stake365</span>
 //           </div>
 
 //           {/* Main Heading */}
@@ -132,7 +132,7 @@
 // };
 
 // export default HeroBanner;
-
+import { Link } from 'react-router-dom';
 import React from 'react';
 import { Gift, Sparkles, TrendingUp } from 'lucide-react';
 
@@ -208,7 +208,7 @@ const HeroBanner = () => {
           {/* Platform Badge */}
           <div className="inline-flex items-center gap-2 bg-white/25 backdrop-blur-sm rounded-full px-4 py-1.5 mb-3 border border-white/30">
             <Sparkles className="w-3 h-3 text-yellow-300" />
-            <span className="text-white font-semibold text-sm">Stackbet365</span>
+            <span className="text-white font-semibold text-sm">Stake365</span>
           </div>
 
           {/* Main Heading */}
@@ -243,18 +243,22 @@ const HeroBanner = () => {
               <Gift className="w-5 h-5" />
               Deposit & Get 2X Bonus
             </button>
-            <button className="bg-white/20 backdrop-blur-sm text-white px-6 py-3 rounded-xl font-semibold text-base hover:bg-white/30 transition-all duration-300 border border-white/30">
+          <Link to ="/About-us">
+            <button className="bg-white/20 backdrop-blur-sm cursor-pointer text-white px-6 py-3 rounded-xl font-semibold text-base hover:bg-white/30 transition-all duration-300 border border-white/30">
               Learn More
             </button>
+          </Link> 
           </div>
 
           {/* Terms */}
           <div className="mt-3">
             <p className="text-blue-200 text-sm">
               <span className="font-medium">Bonus Terms:</span> 
+          <Link to= "/terms-and-conditions" >    
               <span className="underline cursor-pointer hover:text-white transition-colors ml-1">
                 Terms & Conditions apply
               </span>
+          </Link>
             </p>
           </div>
         </div>

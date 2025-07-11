@@ -353,9 +353,7 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
               <span className="text-xl font-bold text-gray-800 tracking-tight">
                 Stack
               </span>
-              <span className="text-xl font-bold text-gray-900 tracking-tight">
-                Bet
-              </span>
+             
               <span className="text-lg font-normal text-[#9810FA] ml-0.5">
                 365
               </span>

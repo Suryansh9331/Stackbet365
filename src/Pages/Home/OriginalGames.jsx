@@ -23,15 +23,7 @@ const OriginalGames = () => {
   { id: 18, name: 'Mr. Gamble', image: 'https://mediumrare.imgix.net/59d1df22a2931a965fc241a436a398f460e71ea9d0214f66780a52b56655d392?w=180&h=236&fit=min&auto=format' },
   { id: 19, name: 'Rocket Blaze', image: 'https://mediumrare.imgix.net/08512fbdc9c4163e9fae5917c47ade43a7bfe8253de88d8d16296540eab0f0a1?w=180&h=236&fit=min&auto=format' },
   { id: 20, name: 'Crypto Plinko', image: 'https://mediumrare.imgix.net/931cf1fd7147d0d0deda93f16fb8ef556d6d42df3586214f6539a9cfcfcf57b9?w=180&h=236&fit=min&auto=format' },
-  { id: 21, name: 'Boom Ball', image: 'https://mediumrare.imgix.net/7a2cc695cad10b097220f0c5c81858075c3ec4ee4235d8211cbbdbbd389c6d6c?w=180&h=236&fit=min&auto=format' },
-  { id: 22, name: 'Lava Launch', image: 'https://mediumrare.imgix.net/64f71f2f8c1bde6a66c98ab399c846c8e9921f424559737d0a3879414b69b4b8?w=180&h=236&fit=min&auto=format' },
-  { id: 23, name: 'Speedy Flip', image: 'https://mediumrare.imgix.net/3a6fa5d49d31f11ce131acb64d8cbbe6cc5d8f916bd0afacaeb1fc5976aa4fdf?w=180&h=236&fit=min&auto=format' },
-  { id: 24, name: 'Sniper Aim', image: 'https://mediumrare.imgix.net/3b0d5a4dbc8395fc39ebce15a0eaf21373004f428fb266abebe934428f598256?w=180&h=236&fit=min&auto=format' },
-  { id: 25, name: 'Dice Duel', image: 'https://mediumrare.imgix.net/5fcbd552a53b9be85428ecd7fa0ef663f9d763bd8a504dd0de222bc873b79887?w=180&h=236&fit=min&auto=format' },
-  { id: 26, name: 'Sky Crash', image: 'https://mediumrare.imgix.net/c830595cbd07b2561ac76a365c2f01869dec9a8fe5e7be30634d78c51b2cc91e?w=180&h=236&fit=min&auto=format' },
-  { id: 27, name: 'Mega Miner', image: 'https://mediumrare.imgix.net/15a51a2ae2895872ae2b600fa6fe8d7f8d32c9814766b66ddea2b288d04ba89c?w=180&h=236&fit=min&auto=format' },
-  { id: 28, name: 'Ninja RunX', image: 'https://mediumrare.imgix.net/5cbb2498c956527e6584c6af216489b85bbb7a909c7d3c4e131a3be9bd1cc6bf?w=180&h=236&fit=min&auto=format' }
-];
+ ];
 
   return (
     <div className="bg-white ">
