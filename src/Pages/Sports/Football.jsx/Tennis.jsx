@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, ChevronUp, BarChart3, TrendingUp, Clock, Play, Users, Star, Globe, Wifi, Signal, Trophy, Target, Zap, Activity } from 'lucide-react';
 import Footer from '../../../Components/Footer';
+import Loader from '../../../Components/Loader';
 
 const Tennis = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -901,7 +902,8 @@ const Tennis = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
+    <Loader>   
+   <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
       {/* Header */}
       <div className="bg-gradient-to-r from-slate-800 to-slate-700 p-4 md:p-6 border-b border-slate-600 sticky top-0 z-50 shadow-2xl">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between space-y-4 lg:space-y-0">
@@ -1013,6 +1015,7 @@ const Tennis = () => {
       </div>
 <Footer/>
     </div>
+ </Loader>
   );
 };
 

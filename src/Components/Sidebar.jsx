@@ -731,7 +731,7 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
           {user ? (
             <div className="flex items-center space-x-2 relative">
               <button
-                onClick={() => navigate("/account")}
+                onClick={() => navigate("/user-dashboard")}
                 className="flex items-center space-x-2"
               >
                 <img
@@ -762,12 +762,16 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
             </div>
           ) : (
             <>
-              <button className="px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 font-medium">
-                Login
-              </button>
-              <button className="px-4 py-2 text-white bg-[#9810FA] rounded-lg hover:bg-indigo-700 font-medium">
-                Sign Up
-              </button>
+              <Link to="/casino/originals">
+                <button className="px-4 py-2 text-gray-700 hover:cursor-pointer bg-white border border-gray-300 rounded-lg hover:bg-gray-50 font-medium">
+                  Login
+                </button>
+              </Link>
+              <Link to="/casino/originals">
+                <button className="px-4 py-2 text-white hover:cursor-pointer bg-[#9810FA] rounded-lg hover:bg-indigo-700 font-medium">
+                  Sign Up
+                </button>
+              </Link>
             </>
           )}
         </div>
@@ -867,7 +871,7 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
             {user ? (
               <div className="flex items-center space-x-2 w-full">
                 <button
-                  onClick={() => navigate("/account")}
+                  onClick={() => navigate("/user-dashboard")}
                   className="flex items-center space-x-2 flex-grow"
                 >
                   <img
@@ -900,12 +904,17 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
               </div>
             ) : (
               <div className="flex items-center justify-between space-x-3 w-full">
-                <button className="flex-1 px-3 py-2 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 text-sm">
-                  Login
-                </button>
-                <button className="flex-1 px-3 py-2 text-white bg-[#9810FA] rounded-lg hover:bg-indigo-700 text-sm">
-                  Sign Up
-                </button>
+                <Link to="/casino/originals" className="flex-1">
+                  <button className="w-full px-3 py-2 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 text-sm">
+                    Login
+                  </button>
+                </Link>
+
+                <Link to="/casino/originals" className="flex-1">
+                  <button className="w-full px-3 py-2 text-white bg-[#9810FA] rounded-lg hover:bg-indigo-700 text-sm">
+                    Sign Up
+                  </button>
+                </Link>
               </div>
             )}
           </div>
@@ -965,7 +974,7 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
             </h3>
           )}
           <Link
-            to="/account"
+            to="/user-dashboard"
             className={`w-full flex items-center space-x-3 px-3 py-3 rounded-xl text-gray-600 hover:bg-gradient-to-r hover:from-purple-50 hover:to-blue-50 hover:text-purple-700 transition-all duration-200 group border border-transparent hover:border-purple-100 hover:shadow-sm ${
               isSidebarCollapsed ? "justify-center" : ""
             }`}
@@ -1007,7 +1016,7 @@ const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
               General
             </h3>
             <Link
-              to="/account"
+              to="/user-dashboard"
               className="w-full flex items-center space-x-3 px-3 py-3 rounded-xl text-gray-600 hover:bg-gradient-to-r hover:from-purple-50 hover:to-blue-50 hover:text-purple-700 transition-all duration-200 group border border-transparent hover:border-purple-100 hover:shadow-sm"
               onClick={() => setIsMobileMenuOpen(false)}
             >

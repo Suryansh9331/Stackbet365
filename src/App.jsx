@@ -90,6 +90,8 @@ import { AuthProvider } from "./Context/AuthContext";
 import { useAuth } from "./Hooks/useAuth";
 import ProtectedRoute from "./Components/ProtectedRoutes";
 import AuthModal from "./Components/AuthModel";
+import Dashboard from "./Pages/Dashboard/UserDashboard";
+import DepositOfferPopup from "./Components/2xBonus";
 
 function AppRoutes() {
   const { user } = useAuth();
@@ -117,6 +119,7 @@ function AppRoutes() {
 
   return (
     <>
+    <DepositOfferPopup/>
       <ScrollToTop />
      <Sidebar/>
 
@@ -144,6 +147,8 @@ function AppRoutes() {
           <Route path="/sports/liveBetting" element={<ProtectedRoute><LiveBetting /></ProtectedRoute>} />
           <Route path="/sports/basketball" element={<ProtectedRoute><Basketball /></ProtectedRoute>} />
           <Route path="/sports/tennis" element={<ProtectedRoute><Tennis /></ProtectedRoute>} />
+         
+          <Route path="/user-dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
 
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/Privacy-policy" element={<PrivacyPolicy />} />

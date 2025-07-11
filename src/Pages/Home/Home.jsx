@@ -1,3 +1,4 @@
+import Loader from "../../Components/Loader";
 import HeroBanner from "./Banner";
 import GamingCategories from "./FourBox";
 import Games from "./GameGrid";
@@ -8,7 +9,9 @@ import SlotGames from "./SlotGames";
 import OriginalGames from "./OriginalGames";
 const HomePage = () => {
   return (
-    <div className="lg:px-10  px-2 md:px-6 py-4 space-y-6 lg:mt-4 md:mt-30  sm:mt-40 mt-30 " >
+
+   <div className="lg:px-10  px-2 md:px-6 py-4 space-y-6 lg:mt-4 md:mt-30  sm:mt-40 mt-30 " >
+      <Loader >
       <HeroBanner/>
       <GamingCategories/>
       <RecentWinners/>
@@ -16,8 +19,10 @@ const HomePage = () => {
       <Games/>
       <SlotGames/>
       <LiveBettingTable/>
+      </Loader>
       <Footer/>
     </div>
+
   );
 };
 

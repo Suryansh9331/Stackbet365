@@ -50,11 +50,12 @@ const SpribeGames = () => {
               
               {/* Hover Overlay */}
               <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                 <Link to ="/deposite-page">
                 <button className="bg-[#9810FA] hover:cursor-pointer text-white font-semibold hover:bg-white hover:text-purple-600 py-2 px-4 rounded-full flex items-center space-x-2 transform scale-90 group-hover:scale-100 transition-transform duration-300">
                   <Play className="w-2 h-2 fill-current" />
                   <span>Play Now</span>
                 </button>
-              </div>
+             </Link> </div>
             </div>
           </div>
         ))}

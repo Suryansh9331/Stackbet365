@@ -323,9 +323,7 @@ const Footer = () => {
               Please ensure you are 18 years or older to participate, and remember to play responsibly. Your well-being is our top priority.
             </p>
             <div className="flex flex-col space-y-2">
-              <Link to="/support" className="text-[#9810FA] hover:text-purple-600 transition-colors duration-200 text-sm font-medium">
-                Support Center
-              </Link>
+           
               <Link to="/sports/basketball" className="text-[#9810FA] hover:text-purple-600 transition-colors duration-200 text-sm font-medium">
                 Responsible Gaming Tools
               </Link>
@@ -344,12 +342,7 @@ const Footer = () => {
               <Link to="/contact" className="text-gray-500 hover:text-[#9810FA] transition-colors duration-200">
                 Contact Us
               </Link>
-              <Link to="/sitemap" className="text-gray-500 hover:text-[#9810FA] transition-colors duration-200">
-                Sitemap
-              </Link>
-              <Link to="/affiliates" className="text-gray-500 hover:text-[#9810FA] transition-colors duration-200">
-                Affiliates
-              </Link>
+              
             </div>
           </div>
         </div>

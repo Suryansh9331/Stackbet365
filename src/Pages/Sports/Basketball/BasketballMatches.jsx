@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, ChevronUp, BarChart3, TrendingUp, Clock, Play, Users, Star, Globe, Wifi, Signal } from 'lucide-react';
 import Footer from '../../../Components/Footer';
+import Loader from '../../../Components/Loader';
 
 
 const Basketball = () => {
@@ -301,6 +302,7 @@ const Basketball = () => {
     const isExpanded = expandedSections[countryKey];
     
     return (
+       
       <div className="mb-2 bg-slate-800 rounded-lg overflow-hidden shadow-lg">
         <div 
           className="flex items-center justify-between p-3 md:p-4 bg-slate-800 hover:bg-slate-700 cursor-pointer transition-all duration-200"
@@ -457,6 +459,7 @@ const Basketball = () => {
   };
 
   return (
+     <Loader>   
     <div className="min-h-screen bg-slate-900 text-white">
       {/* Header */}
       <div className="bg-slate-800 p-3 md:p-4 border-b border-slate-700 sticky top-0 z-50">
@@ -539,9 +542,11 @@ const Basketball = () => {
           <p className="mt-1">Responsible Gaming | 18+ | Terms Apply</p>
         </div>
       </div>
+   
     <Footer/>
     </div>
-  );
+  </Loader>
+);
 };
 
 export default Basketball;
