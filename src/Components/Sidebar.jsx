@@ -628,7 +628,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
-import { useAuth } from "../Hooks/useAuth";
+import { useAuth } from "../hooks/useAuth";
 
 const Sidebar = ({ isSidebarCollapsed, setIsSidebarCollapsed }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

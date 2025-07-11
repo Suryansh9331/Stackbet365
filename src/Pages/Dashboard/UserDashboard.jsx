@@ -590,7 +590,7 @@
 // export default Dashboard;
 
 import React, { useState } from "react";
-import { useAuth } from "../../Hooks/useAuth";
+import { useAuth } from "../../hooks/useAuth";
 import { Link } from "react-router-dom";
 import {
   LogOut,

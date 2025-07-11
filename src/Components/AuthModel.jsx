@@ -286,7 +286,7 @@
 
 // export default AuthModal;
 import React, { useState, useEffect } from "react";
-import { useAuth } from "../Hooks/useAuth";
+import { useAuth } from "../hooks/useAuth";
 
 const SHEETDB_API = "https://sheetdb.io/api/v1/hu2ruifqk8tm6";
 

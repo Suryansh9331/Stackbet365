@@ -87,7 +87,7 @@ import FAQ from "./Pages/FAQ/Questions";
 import AboutUs from "./Pages/About/About";
 
 import { AuthProvider } from "./Context/AuthContext";
-import { useAuth } from "./Hooks/useAuth.jsx"; //Hook error resolved
+import { useAuth } from "./hooks/useAuth"; //Hook error resolved
 import ProtectedRoute from "./Components/ProtectedRoutes";
 import AuthModal from "./Components/AuthModel";
 import Dashboard from "./Pages/Dashboard/UserDashboard";
