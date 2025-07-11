@@ -68,7 +68,7 @@ const AboutUs = () => {
   };
 
   return (
-    <div className="h-auto lg:px-10  px-2 md:px-6 py-4 space-y-6 lg:mt-4 md:mt-4  sm:mt-40 mt-30   bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="h-auto lg:px-10  px-2 md:px-6 py-4 space-y-6 lg:mt-4 md:mt-30  sm:mt-40 mt-30   bg-gradient-to-br from-gray-50 via-white to-blue-50">
       {/* Header */}
       <div className={`bg-white border-b border-gray-200 transition-all duration-1000 ${isVisible ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform -translate-y-4'}`}>
         <div className="max-w-6xl mx-auto px-4 py-8">

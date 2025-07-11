@@ -77,7 +77,7 @@ const TermsAndConditions = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white lg:px-10  px-2 md:px-6 py-4 space-y-6 lg:mt-4 md:mt-4  sm:mt-40 mt-30 ">
+    <div className="min-h-screen bg-white lg:px-10  px-2 md:px-6 py-4 space-y-6 lg:mt-4 md:mt-30  sm:mt-40 mt-30 ">
       {/* Header */}
       <div className={`bg-white border-b border-gray-200 transition-all duration-1000 ${isVisible ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform -translate-y-4'}`}>
         <div className="max-w-4xl mx-auto px-4 py-8">

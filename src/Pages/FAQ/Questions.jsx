@@ -84,7 +84,7 @@ const FAQ = () => {
   const categories = [...new Set(faqs.map((faq) => faq.category))];
 
   return (
-    <div className="h-auto bg-gradient-to-br from-gray-50 to-white lg:px-10  px-2 md:px-6 py-4 space-y-6 lg:mt-4 md:mt-4  sm:mt-40 mt-30 ">
+    <div className="h-auto bg-gradient-to-br from-gray-50 to-white lg:px-10  px-2 md:px-6 py-4 space-y-6 lg:mt-4 md:mt-30  sm:mt-40 mt-30 ">
       {/* Header */}
       <div
         className={`bg-white border-b border-gray-200 transition-all duration-1000 ${
