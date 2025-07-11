@@ -16,7 +16,7 @@ import Basketball from "./Pages/Sports/Basketball/BasketballMatches";
 import Tennis from "./Pages/Sports/Football.jsx/Tennis";
 import TermsAndConditions from "./Pages/Terms/Terms";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/Privacy";
-import FAQ from "./Pages/FAQ/FAq";
+import FAQ from "./Pages/FAQ/Questions";
 import AboutUs from "./Pages/About/About";
 
 function App() {
