@@ -306,6 +306,7 @@
 // };
 
 // export default DepositeComponent;
+import Footer from "../../Components/Footer";
 import React, { useState } from "react";
 import {
   Copy,
@@ -363,7 +364,7 @@ const DepositeComponent = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+    <div className="h-auto bg-gradient-to-br from-gray-50 to-gray-100 lg:px-10  px-2 md:px-6 py-4 space-y-6 lg:mt-4 md:mt-30  sm:mt-40 mt-30 ">
       {/* Header Navigation */}
 
       {/* Main Content */}
@@ -743,6 +744,7 @@ const DepositeComponent = () => {
           </div>
         </div>
       </main>
+    <Footer/>
     </div>
   );
 };

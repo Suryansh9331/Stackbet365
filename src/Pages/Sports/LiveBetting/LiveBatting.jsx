@@ -3,6 +3,8 @@ import CryptoLiveBettingTable from './Table1';
 import LiveBettingTable from "../../Home/LiveBet"
 import Footer from '../../../Components/Footer';
 import Loader from '../../../Components/Loader';
+import DepositOfferPopup from "../../Components/2xBonus";
+
 
 const LiveBetting = () => {
   return (
@@ -13,6 +15,7 @@ const LiveBetting = () => {
      <LiveBettingTable/>
      </Loader>
       <Footer/>
+         <DepositOfferPopup/>
     </div>
   );
 };

@@ -12,6 +12,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import Footer from "../../Components/Footer";
+import DepositOfferPopup from "../../Components/2xBonus";
 
 const FAQ = () => {
   const [expandedSection, setExpandedSection] = useState(null);
@@ -86,6 +87,7 @@ const FAQ = () => {
   return (
     <div className="h-auto bg-gradient-to-br from-gray-50 to-white lg:px-10  px-2 md:px-6 py-4 space-y-6 lg:mt-4 md:mt-30  sm:mt-40 mt-30 ">
       {/* Header */}
+         <DepositOfferPopup/>
       <div
         className={`bg-white border-b border-gray-200 transition-all duration-1000 ${
           isVisible

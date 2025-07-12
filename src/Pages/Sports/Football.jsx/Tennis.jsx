@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ChevronDown, ChevronUp, BarChart3, TrendingUp, Clock, Play, Users, Star, Globe, Wifi, Signal, Trophy, Target, Zap, Activity } from 'lucide-react';
 import Footer from '../../../Components/Footer';
 import Loader from '../../../Components/Loader';
+import DepositOfferPopup from "../../Components/2xBonus";
 
 const Tennis = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -1014,6 +1015,7 @@ const Tennis = () => {
         </div>
       </div>
 <Footer/>
+   <DepositOfferPopup/>
     </div>
  </Loader>
   );

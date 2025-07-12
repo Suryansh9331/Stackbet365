@@ -592,6 +592,8 @@
 import React, { useState } from "react";
 import { useAuth } from "../../hooks/useAuth";
 import { Link } from "react-router-dom";
+import DepositOfferPopup from "../../Components/2xBonus";
+
 import {
   LogOut,
   Wallet,
@@ -789,6 +791,7 @@ const Dashboard = () => {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800 p-4 md:p-6 space-y-6 lg:px-10  px-2 md:px-6 py-4  lg:mt-4 md:mt-30  sm:mt-40 mt-30 ">
       {/* Header */}
+         <DepositOfferPopup/>
       <WelcomeBonusPopup />
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
         <div className="flex items-center space-x-4 mb-4 md:mb-0">
