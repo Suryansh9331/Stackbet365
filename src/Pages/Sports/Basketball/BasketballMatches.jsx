@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { ChevronDown, ChevronUp, BarChart3, TrendingUp, Clock, Play, Users, Star, Globe, Wifi, Signal } from 'lucide-react';
 import Footer from '../../../Components/Footer';
 import Loader from '../../../Components/Loader';
-import DepositOfferPopup from "../../../Components/2xBonus";
 
 
 const Basketball = () => {
@@ -545,7 +544,7 @@ const Basketball = () => {
       </div>
    
     <Footer/>
-       <DepositOfferPopup/>
+      
     </div>
   </Loader>
 );

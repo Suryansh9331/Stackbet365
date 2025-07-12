@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, Mail, Shield, Users, CreditCard, Copyright, AlertTriangle } from 'lucide-react';
 import Footer from '../../Components/Footer';
-import DepositOfferPopup from "../../Components/2xBonus";
 
 
 const TermsAndConditions = () => {
@@ -193,7 +192,6 @@ const TermsAndConditions = () => {
         </div>
       </div>
    <Footer/>
-      <DepositOfferPopup/>
     </div>
   );
 };
