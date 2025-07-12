@@ -92,6 +92,7 @@ import ProtectedRoute from "./Components/ProtectedRoutes";
 import AuthModal from "./Components/AuthModel";
 import Dashboard from "./Pages/Dashboard/UserDashboard";
 import DepositOfferPopup from "./Components/2xBonus";
+import DepositeComponent from "./Pages/DepositePage/Payment";
 
 function AppRoutes() {
   const { user } = useAuth();
@@ -149,7 +150,9 @@ function AppRoutes() {
           <Route path="/sports/tennis" element={<ProtectedRoute><Tennis /></ProtectedRoute>} />
          
           <Route path="/user-dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+          <Route path="/deposite-page" element={<ProtectedRoute><DepositeComponent /></ProtectedRoute>} />
 
+          
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/Privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/frequently-asked-Question" element={<FAQ />} />
