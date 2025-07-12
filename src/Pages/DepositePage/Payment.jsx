@@ -728,7 +728,7 @@ const DepositeComponent = () => {
                 <div className="flex items-center justify-center space-x-6 text-sm text-gray-500">
                   <div className="flex items-center">
                     <Shield className="w-4 h-4 mr-2" />
-                    <span>SSL Secured</span>
+                    <span>SSL </span>
                   </div>
                   <div className="flex items-center">
                     <Star className="w-4 h-4 mr-2" />

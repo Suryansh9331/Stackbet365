@@ -239,10 +239,12 @@ const HeroBanner = () => {
 
           {/* CTA Button */}
           <div className="flex flex-col sm:flex-row gap-3">
-            <button className="bg-white text-blue-700 px-8 py-3 rounded-xl font-bold lg:text-lg sm:text-md hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center gap-2">
+         <Link to  ="/deposite-page">    
+            <button className="bg-white hover:cursor-pointer text-blue-700 px-8 py-3 rounded-xl font-bold lg:text-lg sm:text-md hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center gap-2">
               <Gift className="w-5 h-5" />
               Deposit & Get 2X Bonus
             </button>
+       </Link>
           <Link to ="/About-us">
             <button className="bg-white/20 backdrop-blur-sm cursor-pointer text-white px-6 py-3 rounded-xl font-semibold text-base hover:bg-white/30 transition-all duration-300 border border-white/30">
               Learn More

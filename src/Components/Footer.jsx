@@ -237,7 +237,7 @@ const Footer = () => {
               </div>
             </Link>
             <p className="text-gray-600 text-sm leading-relaxed mb-6">
-              AtStake365, we are committed to promoting responsible gambling practices. We believe in creating a safe and enjoyable gaming environment for all players.
+              At Stake365, we are committed to promoting responsible gambling practices. We believe in creating a safe and enjoyable gaming environment for all players.
             </p>
             <div className="flex items-center space-x-2 text-gray-700">
               <Mail className="w-4 h-4 text-[#9810FA]" />
@@ -335,12 +335,12 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-gray-500 text-sm">
-                © 2025Stake365.com | All Rights Reserved.
+                © 2025 Stake365.com | All Rights Reserved.
               </p>
             </div>
             <div className="flex flex-wrap justify-center md:justify-end space-x-6 text-sm">
               <Link to="/contact" className="text-gray-500 hover:text-[#9810FA] transition-colors duration-200">
-                Contact Us
+                <span className = "font-medium" >Stack</span>  365
               </Link>
               
             </div>
