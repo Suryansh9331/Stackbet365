@@ -110,6 +110,8 @@ function AppRoutes() {
     "/sports/liveBetting",
     "/sports/basketball",
     "/sports/tennis",
+    "/deposite-page",
+    "/user-dashboard",
   ];
 
   const isProtected = protectedRoutes.includes(location.pathname);
@@ -148,8 +150,8 @@ function AppRoutes() {
           <Route path="/sports/liveBetting" element={<ProtectedRoute><LiveBetting /></ProtectedRoute>} />
           <Route path="/sports/basketball" element={<ProtectedRoute><Basketball /></ProtectedRoute>} />
           <Route path="/sports/tennis" element={<ProtectedRoute><Tennis /></ProtectedRoute>} />
-         
           <Route path="/user-dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+         
           <Route path="/deposite-page" element={<ProtectedRoute><DepositeComponent /></ProtectedRoute>} />
 
           
