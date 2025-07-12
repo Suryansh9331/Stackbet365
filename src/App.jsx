@@ -91,7 +91,6 @@ import { useAuth } from "./hooks/useAuth"; //Hook error resolved
 import ProtectedRoute from "./Components/ProtectedRoutes";
 import AuthModal from "./Components/AuthModel";
 import Dashboard from "./Pages/Dashboard/UserDashboard";
-import DepositOfferPopup from "./Components/2xBonus";
 import DepositeComponent from "./Pages/DepositePage/Payment";
 
 function AppRoutes() {
@@ -122,10 +121,9 @@ function AppRoutes() {
 
   return (
     <>
-    <DepositOfferPopup/>
       <ScrollToTop />
      <Sidebar/>
-
+{/* //pop upremoved */}
       <div
         className={`transition-all duration-300 ${
           false ? "lg:ml-16" : "lg:ml-64"
