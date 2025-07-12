@@ -1,7 +1,7 @@
 import SpribeGames from './SpribeGames';
 import Footer from '../../../Components/Footer';
 import Loader from '../../../Components/Loader';
-import DepositOfferPopup from "../../Components/2xBonus";
+import DepositOfferPopup from "../../../Components/2xBonus";
 
 const Spribe = () => {
   return (

@@ -1,7 +1,7 @@
 import LiveCasinoGames from './LiveCasinoGames';
 import Footer from '../../../Components/Footer';
 import Loader from '../../../Components/Loader';
-import DepositOfferPopup from "../../Components/2xBonus";
+import DepositOfferPopup from "../../../Components/2xBonus";
 
 const LiveCasino = () => {
   return (

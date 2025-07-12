@@ -2,7 +2,7 @@
 import Footer from '../../../Components/Footer';
 import MiniGames from './MIniGames';
 import Loader from '../../../Components/Loader';
-import DepositOfferPopup from "../../Components/2xBonus";
+import DepositOfferPopup from "../../../Components/2xBonus";
 
 
 const Mini = () => {
