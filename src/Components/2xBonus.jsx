@@ -28,7 +28,7 @@ const DepositOfferPopup = () => {
       showPopup();
       // After showing, set up the next timer
       intervalRef.current = setInterval(showPopup, 10000);
-    }, 10000);
+    }, 15000);
   };
 
   useEffect(() => {
