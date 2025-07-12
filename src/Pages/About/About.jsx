@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import DepositOfferPopup from "../../Components/2xBonus";
 
 import { 
   Gamepad2, 
@@ -252,7 +251,6 @@ const AboutUs = () => {
         </div>
       </div>
     <Footer/>
-       <DepositOfferPopup/>
     </div>
   );
 };

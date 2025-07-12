@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, Mail, Database, Share2, Shield, Eye } from 'lucide-react';
 import Footer from '../../Components/Footer';
-import DepositOfferPopup from "../../Components/2xBonus";
 
 
 const PrivacyPolicy = () => {
@@ -184,7 +183,6 @@ const PrivacyPolicy = () => {
         </div>
       </div>
  <Footer/>  
-    <DepositOfferPopup/>
     </div>
   );
 };
