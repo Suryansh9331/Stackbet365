@@ -123,7 +123,7 @@ function AppRoutes() {
     <>
       <ScrollToTop />
      <Sidebar/>
-{/* //pop upremoved */}
+
       <div
         className={`transition-all duration-300 ${
           false ? "lg:ml-16" : "lg:ml-64"
